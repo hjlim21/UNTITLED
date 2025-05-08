@@ -17,10 +17,37 @@ body {
   position: absolute;
   top: 1rem;
   left: 1rem;
-  z-index: 10;
-  width: 50px;
+  width: 60px;
   margin-top: 1.25rem;
-  margin-left: 2.5rem;
+  margin-left: 1.875rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.person:hover {
+  animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  75% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .btn-center {

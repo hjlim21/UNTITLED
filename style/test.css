@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-center {
+  display: inline-block;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.3125rem;
+  padding-inline: 0.625rem;
+  margin: 0.625rem;
+  font-size: 0.9375rem;
+  color: #000;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #e1e1e1, #f6f6f6);
+  border: solid 1px #a5a5a5;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: white;
+  background: linear-gradient(to bottom, #5299f7, blue);
+}
