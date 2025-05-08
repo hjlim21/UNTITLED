@@ -64,3 +64,16 @@ function showResult() {
   const idx = answers.length % results.length;
   document.getElementById('result-text').textContent = results[idx];
 }
+
+document.addEventListener('click', function (event) {
+  if (
+    event.target.closest('button') ||
+    event.target.closest('a') ||
+    event.target.closest('input') ||
+    event.target.closest('#options')
+  ) {
+    return;
+  }
+
+  history.back();
+});
