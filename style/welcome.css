@@ -10,20 +10,29 @@ html,
 body {
   height: 100%;
   padding-top: 0.625rem;
-  text-align: center; /* inline-block 요소 중앙 정렬 */
+  text-align: center;
+}
+
+.person {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  width: 50px;
+  margin-top: 1.25rem;
+  margin-left: 2.5rem;
 }
 
 .btn-center {
   display: inline-block;
-  margin-right: 2.8125rem;
   text-align: center;
 }
 
 .btn {
-  display: inline-block; /* 가로 기준 정렬 가능 */
+  display: inline-block;
   padding: 0.3125rem;
   padding-inline: 0.625rem;
-  margin: 0.625rem; /* 버튼 간 간격 */
+  margin: 0.625rem;
   font-size: 0.9375rem;
   color: #000;
   cursor: pointer;
@@ -38,7 +47,32 @@ body {
 }
 
 #message {
-  margin-top: 5rem;
+  margin-top: 6.25rem;
   font-size: 0.9375rem;
-  color: #333;
+  color: #000;
+}
+
+@media screen and (width <= 480px) {
+  .btn-center {
+    display: block;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .btn {
+    display: inline-block;
+    width: auto;
+    min-width: auto;
+    padding: 0.4rem 0.6rem;
+    margin: 0.3rem 0.2rem;
+    font-size: 0.5625rem;
+    border-radius: 4px;
+  }
+
+  #message {
+    padding: 0 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.5312rem;
+  }
 }
