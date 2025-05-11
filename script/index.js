@@ -6,7 +6,9 @@ $(document).ready(function () {
     const currentText = $(this).find('span').text();
 
     if (currentText === 'FFF') {
-      alert('2025 상명대학교 커뮤니케이션디자인전공 과제전 주간');
+      alert(
+        '이름 붙일 수 없는 시도들, 정의하기 이전의 생각들, 디자인의 기록입니다.'
+      );
       window.location.href = 'welcome.html';
       return;
     }
