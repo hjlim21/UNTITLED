@@ -79,8 +79,9 @@ function showQuestion() {
 function showResult() {
   document.getElementById('question-box').classList.add('hidden');
   document.getElementById('result-box').classList.remove('hidden');
-  const idx = answers.length % results.length;
-  document.getElementById('result-text').textContent = results[idx];
+
+  const randomIndex = Math.floor(Math.random() * results.length);
+  document.getElementById('result-text').textContent = results[randomIndex];
 }
 
 document.addEventListener('click', function (event) {

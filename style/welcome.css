@@ -14,12 +14,11 @@ body {
 }
 
 .person {
-  position: absolute;
+  position: fixed;
   top: 1rem;
-  left: 1rem;
+  left: 1.875rem;
+  z-index: 10;
   width: 60px;
-  margin-top: 1.25rem;
-  margin-left: 1.875rem;
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -47,6 +46,13 @@ body {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@media screen and (width <= 480px) {
+  .person {
+    left: 0.9375rem;
+    width: 30px;
   }
 }
 
