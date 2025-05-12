@@ -1,17 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const intBtn = document.querySelector('.btn.int');
-  const messageBox = document.getElementById('message');
+document.addEventListener("DOMContentLoaded", () => {
+  const intBtn = document.querySelector(".btn.int");
+  const messageBox = document.getElementById("message");
 
-  intBtn.addEventListener('click', () => {
-    messageBox.textContent = '상명대학교 커뮤니케이션디자인전공 과제전';
+  intBtn.addEventListener("click", () => {
+    messageBox.textContent = "2025 상명대학교 커뮤니케이션디자인전공 과제전";
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const intBtn = document.querySelector('.btn.visite');
-  const messageBox = document.getElementById('message');
+document.addEventListener("DOMContentLoaded", () => {
+  const intBtn = document.querySelector(".btn.visite");
+  const messageBox = document.getElementById("message");
 
-  intBtn.addEventListener('click', () => {
+  intBtn.addEventListener("click", () => {
     messageBox.innerHTML = `
     <p>커뮤니케이션디자인 전공의 다양한 수업에서 시작된 과제들을 모았습니다.</p>
     <p>이름 붙일 수 없는 시도와 고민의 결과물들이 한자리에 모인, 다시 되짚어볼 수 있도록 만든 디자인들의 기록입니다.</p>
