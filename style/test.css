@@ -7,7 +7,7 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
   height: 100vh;
   padding: 1rem;
   margin: 0;
-  font-family: sans-serif;
   text-align: center;
 }
 
@@ -35,7 +34,8 @@ body {
 }
 
 h3,
-h4 {
+h4,
+p {
   margin-bottom: 1rem;
 }
 
@@ -49,7 +49,7 @@ h4 {
 .btn {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   white-space: nowrap;
   cursor: pointer;
   background: linear-gradient(to bottom, #e1e1e1, #f6f6f6);
@@ -66,6 +66,10 @@ h4 {
   #options button {
     min-width: 80px;
     max-width: 80vw;
-    font-size: 0.8rem;
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-size: 1.125rem;
   }
 }
