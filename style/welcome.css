@@ -13,6 +13,11 @@ body {
   text-align: center;
 }
 
+a {
+  color: inherit; /* 버튼처럼 보이게 기본 글자색도 맞춰줌 */
+  text-decoration: none;
+}
+
 .person {
   position: fixed;
   top: 1rem;
