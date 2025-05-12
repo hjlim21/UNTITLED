@@ -98,11 +98,3 @@ document.addEventListener("click", function (event) {
 
   window.location.href = "welcome.html";
 });
-
-if (window.matchMedia("(max-width: 480px)").matches) {
-  document.body.style.fontSize = "1.5rem";
-  const paragraphs = document.querySelectorAll("p");
-  paragraphs.forEach((p) => {
-    p.style.fontSize = "1.5rem";
-  });
-}

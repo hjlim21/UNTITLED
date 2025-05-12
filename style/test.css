@@ -61,3 +61,7 @@ p {
   color: white;
   background: linear-gradient(to bottom, #5299f7, blue);
 }
+
+@media (width <= 480px) {
+  /* 스타일 */
+}
