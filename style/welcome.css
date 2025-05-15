@@ -54,14 +54,17 @@ a {
   }
 }
 
-@media screen and (width <= 480px) {
-  .person {
+@media screen and (max-width : 480px) {
+  body{
+    font-size: .9375rem;
+  }
+  .btn {
     left: 0.9375rem;
     width: 30px;
-  }
-}
+    font-size: .9375rem;
+}}
 
-@media screen and (width >= 1440px) {
+@media screen and (max-width : 1440px) {
   body {
     font-size: 20px;
   }
@@ -69,16 +72,6 @@ a {
   #message {
     max-width: 60%;
     margin: 0 auto;
-  }
-}
-
-@media screen and (width >= 2560px) {
-  body {
-    font-size: 40px;
-  }
-
-  #message {
-    max-width: 40%;
   }
 }
 

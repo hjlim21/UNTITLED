@@ -66,6 +66,28 @@ p {
   background: linear-gradient(to bottom, #5299f7, blue);
 }
 
-@media (width <= 480px) {
-  /* 스타일 */
+@media screen and (max-width : 480px) {
+  body{
+    font-size: .9375rem;
+  }
+  .btn {
+    left: 0.9375rem;
+    width: 30px;
+    font-size: 1.25rem;
+}}
+
+@media screen and (max-width : 1440px) {
+  body {
+    font-size: 2.1875rem;
+  }
+
+  #message {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .btn{
+    font-size: 1.25rem;
+  }
+
 }
