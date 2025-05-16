@@ -61,7 +61,7 @@ a {
   margin-bottom: 0.5rem;
 }
 
-@media screen and (width <= 480px) {
+@media (max-width:480px) {
   .btn-center {
     display: block;
     overflow-x: auto;
@@ -75,7 +75,7 @@ a {
     min-width: auto;
     padding: 0.4rem 0.6rem;
     margin: 0.3rem 0.2rem;
-    font-size: 0.5625rem;
+    font-size: .75rem;
     border-radius: 4px;
   }
 
@@ -98,7 +98,7 @@ a {
 
   #message {
     text-align: center;
-    margin-block: 3.125rem;
+    margin-block: 2.5rem;
   }
 
   .sheet{
