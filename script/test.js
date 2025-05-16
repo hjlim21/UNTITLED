@@ -95,6 +95,4 @@ document.addEventListener("click", function (event) {
   ) {
     return;
   }
-
-  window.location.href = "welcome.html";
 });

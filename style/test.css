@@ -66,16 +66,6 @@ p {
   background: linear-gradient(to bottom, #5299f7, blue);
 }
 
-@media (max-width:360px) {
-  body{
-    font-size: 3.125rem;
-  }
-  .btn {
-    display: flex;
-    left: 0.9375rem;
-    width: 30px;
-    font-size: 3.125rem;
-}}
 
 @media (min-width: 1000px) and (max-width: 1440px) {
   body {
@@ -90,5 +80,22 @@ p {
   .btn{
     font-size: 1.25rem;
   }
+}
 
+
+@media (max-width: 768px) {
+  body {
+    font-size: 50px;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    font-size: 3.125rem;
+  }
+
+  .btn {
+    font-size: 1.25rem;
+    width: auto;
+    padding: 0.75rem 1.25rem;
+    display: inline-block;
+  }
 }
