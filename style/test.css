@@ -71,13 +71,21 @@ p {
     font-size: 1.875rem;
   }
 
+  div{
+    font-size: 1.875rem;
+  }
+
+  #message p {
+    font-size: 0.875rem;
+  }
+
   .btn {
     display: inline-block;
     width: auto;
     min-width: auto;
     padding: 0.4rem 0.6rem;
     margin: 0.3rem 0.2rem;
-    font-size: .75rem;
+    font-size: 1rem;
     border-radius: 4px;
   }
 }

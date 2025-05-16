@@ -9,7 +9,7 @@ $(document).ready(function () {
       alert(
         '이름 붙일 수 없는 시도들, 정의하기 이전의 생각들, 디자인의 기록입니다.'
       );
-      window.location.href = 'welcome.html';
+      // window.location.href = 'welcome.html';
       return;
     }
 
