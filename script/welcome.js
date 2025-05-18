@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   intBtn.addEventListener("click", () => {
     messageBox.innerHTML = `
-    <p>.</p>
+    <p>조금은 절제되고, 조금은 과감하게.</p>
+<p>디자인의 표정을 따라가다 보면, 각자의 개성이 보입니다</p>
   `;
   });
 });
+

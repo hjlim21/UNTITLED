@@ -83,7 +83,7 @@ p {
 
 @media (max-width: 720px) {
   p{
-    font-size: .9375rem;
+    font-size: 1.25rem;
   }
 
   div{
@@ -91,7 +91,7 @@ p {
   }
 
   #message p {
-    font-size: .9375rem;
+    font-size: 1.25rem;
   }
 
   #question-text {
