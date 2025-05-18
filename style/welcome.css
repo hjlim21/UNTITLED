@@ -92,7 +92,7 @@ a {
     border-radius: 4px;
   }
 
-  #message p{
+  #message {
     padding: 0 0.5rem;
     margin-top: 1.5rem;
     font-size: .5rem;
