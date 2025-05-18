@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const intBtn = document.querySelector(".btn");
+  const intBtn = document.querySelector(".btn.int");
   const messageBox = document.getElementById("message");
 
   intBtn.addEventListener("click", () => {
