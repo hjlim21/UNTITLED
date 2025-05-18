@@ -83,25 +83,39 @@ p {
 
 @media (max-width: 720px) {
   p{
-    font-size: 1.875rem;
+    font-size: .9375rem;
   }
 
   div{
-    font-size: 1.875rem;
+    font-size: .9375rem;
   }
 
   #message p {
-    font-size: 0.875rem;
+    font-size: .9375rem;
+  }
+
+  #question-text {
+  font-size: .875rem;
+  margin-block-start: 8px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    align-items: center;
+    gap: .1875rem;
   }
 
   .btn {
-    display: inline-block;
-    width: auto;
-    min-width: auto;
+    display: inline-flex;
     padding: 0.4rem 0.6rem;
-    margin: 0.3rem 0.2rem;
-    font-size: 1rem;
+    margin: 0.3rem 0;
+    font-size: 0.75rem;
     border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
   }
 }
 
