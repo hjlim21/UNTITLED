@@ -34,6 +34,8 @@ body {
   color: white;
   background: linear-gradient(to bottom, #5299f7, blue);
   stroke: #000;
+  border: solid 2px #3e418e;
+  border-radius: 15px;
 }
 
 .btn .sa {
