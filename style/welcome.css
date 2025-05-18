@@ -94,7 +94,7 @@ a {
 
   #message {
     padding: 0 0.5rem;
-    margin-top: 1.5rem;
+
     font-size: .5rem;
     position: absolute;
     top: 50px; /* 원하는 위치 */
@@ -110,7 +110,7 @@ a {
   .mobile {
     display: block; 
     position: fixed;
-    top: 18%;
+    top: 16%;
   }
 
 }
