@@ -93,11 +93,11 @@ a {
   }
 
   #message {
-    margin-top: 1rem;
+    margin-top: .8125rem;
     padding: 0 0.5rem;
     font-size: .625rem;
     position: absolute;
-    top: 50px; /* 원하는 위치 */
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
     
@@ -110,7 +110,7 @@ a {
   .mobile {
     display: block; 
     position: fixed;
-    top: 12%;
+    top: 18%
   }
 
 }
