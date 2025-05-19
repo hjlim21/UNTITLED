@@ -30,7 +30,7 @@ a {
   padding: 0.3125rem;
   padding-inline: 0.625rem;
   margin: 0.625rem;
-  font-size: .8125rem;
+  font-size: .9375rem;
   color: #000;
   cursor: pointer;
   background: linear-gradient(to bottom, #e1e1e1, #f6f6f6);
@@ -50,7 +50,7 @@ a {
   left: 0;
   z-index: 1000;
   width: 100%;
-  height: 85%;
+  height: 87%;
   border: none;
 }
 
@@ -65,7 +65,7 @@ a {
 #message {
   margin-top: .625rem;
   margin-bottom: .9375rem;
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
   
 }
@@ -128,6 +128,6 @@ a {
 
   .sheet{
     position: fixed;
-    height: 83%;
+    height: 87%;
   }
 }
