@@ -130,4 +130,9 @@ a {
     position: fixed;
     height: 87%;
   }
+
+  a {
+  color: inherit;
+  text-decoration: none;
+}
 }
