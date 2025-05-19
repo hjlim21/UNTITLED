@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   intBtn.addEventListener("click", () => {
     messageBox.innerHTML = `
-    <p>조금은 절제되고, 조금은 과감하게.</p>
-<p>디자인의 표정을 따라가다 보면, 각자의 개성이 보입니다</p>
+    <p>정해진 루트를 따라 관람하면,</p>
+<p>전시의 흐름과 작품의 연결을 더욱 깊이 있게 느낄 수 있습니다!</p>
   `;
   });
 });
