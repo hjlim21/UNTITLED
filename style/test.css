@@ -33,6 +33,10 @@ p {
   text-align: center;
 }
 
+#message p {
+  margin-bottom: .3125rem;
+  }
+
 #question-text {
   margin-block-start: 8px;
   text-align: center;
@@ -41,7 +45,7 @@ p {
 }
 
 #result-text{
-  margin-top: 1.5625rem;
+  margin-top: 1.25rem;
 }
 
 .hidden {
@@ -51,7 +55,7 @@ p {
 h3,
 h4,
 p {
-  margin-bottom: .625rem;
+  margin-bottom: .3125rem;
   font-weight: 400;
 }
 
@@ -84,6 +88,7 @@ p {
 @media (max-width: 720px) {
   p{
     font-size: 1.25rem;
+    margin-bottom: .3125rem;
   }
 
   div{
@@ -92,7 +97,9 @@ p {
 
   #message p {
     font-size: 1.25rem;
+    margin-bottom: .3125rem;
   }
+  
 
   #question-text {
   font-size: .875rem;
@@ -128,6 +135,10 @@ p {
     max-width: 60%;
     margin: 0 auto;
   }
+
+    #result-text{
+  margin-top: 1.25rem;
+}
 
   .btn{
     font-size: 1.25rem;
